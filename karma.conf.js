@@ -18,6 +18,11 @@ module.exports = function(config) {
     webpack: webpackConfig,
     webpackServer: {
       noInfo: true
-    }
+    },
+    files: [
+      'node_modules/jquery/dist/jquery.min.js',
+      'node_modules/foundation-sites/dist/foundation.min.js',
+      'app/tests/**/*.test.jsx'
+    ],
   });
 };
