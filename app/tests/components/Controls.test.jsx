@@ -25,7 +25,7 @@ describe('Controls', () => {
       var $el = $(ReactDOM.findDOMNode(controls));
       var $startButton = $el.find('button:contains(Start)');
 
-      expect($startButto.length).toBe(1);
+      expect($startButton.length).toBe(1);
     });
   });
 })
